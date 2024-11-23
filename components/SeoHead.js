@@ -6,15 +6,16 @@ const defaultMeta = {
   title: "CrazyDevs",
   siteName: "CrazyDevs",
   description:
-    "Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest",
+    "We specialize in agile software development, ensuring timely delivery and high-quality results. Whether you're a startup or an established enterprise, our solutions drive efficiency, enhance user experiences, and improve business performance.",
   // change base url of your web (without '/' at the end)
-  url: "https://next-landing-vpn.vercel.app",
+  url: "https://crazy-devs.vercel.app/",
   type: "website",
   robots: "follow, index",
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status
-  image: "https://next-landing-vpn.vercel.app/assets/card-image.png",
-  author: "Lorem Ipsum",
+  image:
+    "https://crazy-devs.vercel.app/_next/image?url=%2Fassets%2FIllustration1.png&w=1920&q=100",
+  author: "CrazyDevs",
 };
 
 /**
