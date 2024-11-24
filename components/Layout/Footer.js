@@ -39,11 +39,11 @@ const Footer = () => {
           </p>
           <ul className="text-black-500 ">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              <Link href={"tel:+8801818509472"}>☏ +880-1818509472</Link>
+              <Link href={"tel:+8801716098676"}>☏ +8801716098676</Link>
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              <Link href={"mailto:sales@saratech.farm"}>
-                ✉ sales@saratech.farm
+              <Link href={"mailto:info@crazydevs.com"}>
+                ✉ info@crazydevs.com
               </Link>
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
@@ -53,19 +53,19 @@ const Footer = () => {
         </div>
         <div className="sm:row-span-2 sm:col-span-3 col-span-12 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">
-            Japan Office
+            Saudi Office
           </p>
           <ul className="text-black-500 ">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              <Link href={"tel:+818064706986"}>☏ +81-8064706986</Link>
+              <Link href={"tel:+8801716098676"}>☏ +8801716098676</Link>
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              <Link href={"mailto:sales.japan@saratech.farm"}>
-                ✉ sales.japan@saratech.farm
+              <Link href={"mailto:info@crazydevs.com"}>
+                ✉ info@crazydevs.com
               </Link>
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              𖡡 1-6 Tsukimino Yamato Kanagawa, Japan.
+              𖡡 Riadh, kingdom of saudi Arabia
             </li>
           </ul>
         </div>
