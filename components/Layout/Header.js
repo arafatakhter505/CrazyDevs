@@ -45,7 +45,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 a")
               }
             >
-              About
+              Home
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -63,7 +63,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Services
+              About
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -81,7 +81,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Pricing
+              Services
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -103,13 +103,24 @@ const Header = () => {
             </LinkScroll>
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            <ButtonOutline>Contact Us</ButtonOutline>
+            <LinkScroll
+              activeClass="active"
+              to="footer"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              onSetActive={() => {
+                setActiveLink("footer");
+              }}
+            >
+              <ButtonOutline>Contact Us</ButtonOutline>
+            </LinkScroll>
           </div>
         </nav>
       </header>
       {/* Mobile Navigation */}
 
-      <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
+      <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-50 px-4 sm:px-8 shadow-t ">
         <div className="bg-white-500 sm:px-3">
           <ul className="flex w-full justify-between items-center text-black-500">
             <LinkScroll
@@ -142,7 +153,7 @@ const Header = () => {
                   d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              About
+              Home
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -174,7 +185,7 @@ const Header = () => {
                   d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                 />
               </svg>
-              Feature
+              About
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -206,7 +217,7 @@ const Header = () => {
                   d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              Pricing
+              Services
             </LinkScroll>
             <LinkScroll
               activeClass="active"
