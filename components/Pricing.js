@@ -7,6 +7,8 @@ import Maps from "../public/assets/HugeGlobal.svg";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import Service from "./Service";
+import servicesList from "../utils/servicesList";
 
 const Pricing = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -33,7 +35,17 @@ const Pricing = () => {
               happily and cheerfully.
             </motion.p>
           </ScrollAnimationWrapper>
-          <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
+            {servicesList.map((item) => (
+              <Service
+                key={item.id}
+                serialNum={item.id}
+                icon={item.icon}
+                name={item.name}
+              />
+            ))}
+          </div>
+          {/* <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
@@ -176,7 +188,7 @@ const Pricing = () => {
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
-          </div>
+          </div> */}
         </div>
         {/* <div className="flex flex-col w-full my-16">
           <ScrollAnimationWrapper>
