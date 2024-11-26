@@ -64,4 +64,38 @@ const servicesList = [
   },
 ];
 
+export const homeServicesList = [
+  {
+    id: "01",
+    name: "Web App Development",
+    url: "/services",
+    icon: "/assets/Icon/web-development.svg",
+    description:
+      "Develop robust online applications to suit your business needs and cater to your clients faithfully.",
+  },
+  // {
+  //   id: "02",
+  //   name: "Mobile App Development",
+  //   icon: "/assets/Icon/app-development.svg",
+  //   description:
+  //     "Developing innovative and native mobile apps for Android, iOS, BlackBerry and Windows platforms",
+  // },
+  {
+    id: "03",
+    name: "Cloud Solution",
+    url: "/services",
+    icon: "/assets/Icon/cloud-solution.svg",
+    description:
+      "We help large companies with enterprise-oriented certified cloud and cyber security solutions",
+  },
+  {
+    id: "09",
+    name: "SOFTWARE OUTSOURCING (RESOURCE AUGMENTATION)",
+    url: "/services",
+    icon: "/assets/Icon/outsourcing.svg",
+    description:
+      "Empower your team with top-tier software developers from our resource pool of trendsetters.",
+  },
+];
+
 export default servicesList;
