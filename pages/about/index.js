@@ -4,6 +4,7 @@ import SeoHead from "../../components/SeoHead";
 import PageHero from "../../components/PageHero";
 import OurMission from "../../components/about/OurMission";
 import OurVision from "../../components/about/OurVission";
+import LeadershipValues from "../../components/about/LeadershipValues";
 
 const About = () => {
   return (
@@ -20,6 +21,7 @@ const About = () => {
         />
         <OurMission />
         <OurVision />
+        <LeadershipValues />
       </Layout>
     </>
   );
