@@ -76,7 +76,7 @@ const LeadershipValues = () => {
                     {item.title}
                   </button>
                   {activeIndex === item.id && (
-                    <ul className="mt-4 list-disc space-y-1 px-6">
+                    <ul className="mt-4 list-disc space-y-1 pl-6">
                       {item.value.map((valueItem, i) => (
                         <li key={i}>{valueItem}</li>
                       ))}
@@ -95,7 +95,7 @@ const LeadershipValues = () => {
                     {item.title}
                   </button>
                   {activeIndex === item.id && (
-                    <ul className="mt-4 list-disc space-y-1 px-6">
+                    <ul className="mt-4 list-disc space-y-1 pl-6">
                       {item.value.map((valueItem, i) => (
                         <li key={i}>{valueItem}</li>
                       ))}

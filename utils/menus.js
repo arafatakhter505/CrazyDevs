@@ -26,7 +26,7 @@ const menus = [
   },
   {
     title: "Testimonial",
-    url: "/testimonial",
+    url: "/#testimonial",
     icon: <MdOutlineReviews className="w-6 h-6" />,
   },
 ];
