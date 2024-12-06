@@ -1,7 +1,7 @@
 import { CiCircleInfo } from "react-icons/ci";
 import { FaCode } from "react-icons/fa";
 import { GoHome } from "react-icons/go";
-import { MdOutlineReviews, MdWorkOutline } from "react-icons/md";
+import { MdWorkOutline } from "react-icons/md";
 
 const menus = [
   {
@@ -23,11 +23,6 @@ const menus = [
     title: "Career",
     url: "/career",
     icon: <MdWorkOutline className="w-6 h-6" />,
-  },
-  {
-    title: "Testimonial",
-    url: "/#testimonial",
-    icon: <MdOutlineReviews className="w-6 h-6" />,
   },
 ];
 
