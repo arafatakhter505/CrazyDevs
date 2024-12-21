@@ -43,7 +43,7 @@ const Header = () => {
       {/* Desktop Navigation */}
       <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
         {/* Logo Section */}
-        <div className="col-start-1 col-end-2 flex items-center">
+        <div className="col-start-1 col-end-2 flex items-center cursor-pointer">
           <Link href="/">
           {/* <h3 className="text-xl font-bold cursor-pointer">
               <span className="text-orange-500">Crazy</span>Devs

@@ -62,12 +62,41 @@ const servicesList = [
     description:
       "Empower your team with top-tier software developers from our resource pool of trendsetters.",
   },
+  {
+    id: "10",
+    name: "Search engine optimization",
+    icon: "/assets/Icon/search-Engine-Opt.svg",
+    description:
+      "Get the best comprehensive set of SharePoint services to meet your business requirements.",
+  },
+  {
+    id: "11",
+    name: "E-commurce SEO",
+    icon: "/assets/Icon/e-comSeo.svg",
+    description:
+      "Using the latest tools & concrete methodologies to ensure the readiness of your digital solution.",
+  },
+  {
+    id: "12",
+    name: "Social Media Marketing",
+    icon: "/assets/Icon/marketing.svg",
+    description:
+      "Empower your team with top-tier software developers from our resource pool of trendsetters.",
+  },
 ];
 
 export const homeServicesList = [
   {
     id: "01",
-    name: "Web App Development",
+    name: "Software Out Source",
+    url: "/services",
+    icon: "/assets/Icon/outsourcing.svg",
+    description:
+      "Empower your team with top-tier software developers from our resource pool of trendsetters.",
+  },
+  {
+    id: "02",
+    name: "Development Service",
     url: "/services",
     icon: "/assets/Icon/web-development.svg",
     description:
@@ -82,17 +111,18 @@ export const homeServicesList = [
   // },
   {
     id: "03",
-    name: "Cloud Solution",
+    name: "Cloud Service",
     url: "/services",
     icon: "/assets/Icon/cloud-solution.svg",
     description:
       "We help large companies with enterprise-oriented certified cloud and cyber security solutions",
   },
+
   {
-    id: "09",
-    name: "SOFTWARE OUTSOURCING (RESOURCE AUGMENTATION)",
+    id: "05",
+    name: "Digital Marketing",
     url: "/services",
-    icon: "/assets/Icon/outsourcing.svg",
+    icon: "/assets/Icon/marketing.svg",
     description:
       "Empower your team with top-tier software developers from our resource pool of trendsetters.",
   },
