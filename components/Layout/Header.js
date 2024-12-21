@@ -46,7 +46,7 @@ const Header = () => {
         <div className="col-start-1 col-end-2 flex items-center cursor-pointer">
           <Link href="/">
             <Image
-              src="/assets/logo.svg"
+              src="/assets/crazy_devs_logo.svg"
               alt="CrazyDevs"
               width={120}
               height={50}
