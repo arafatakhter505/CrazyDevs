@@ -11,7 +11,7 @@ const ServiceCard = ({ service }) => {
     <ScrollAnimationWrapper>
       <motion.div
         variants={scrollAnimation}
-        className="bg-white hover:border-orange-500 border-2 border-white-300 p-10 shadow rounded-lg text-left transition-all min-h-[304px]"
+        className="bg-white hover:border-orange-500 border-2 border-white-300 p-10 shadow rounded-lg text-left transition-all "
       >
         <Image src={service.icon} width={80} height={91} alt={service.name} />
         <h3 className="font-medium">{service.name}</h3>

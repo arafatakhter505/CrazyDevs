@@ -22,7 +22,7 @@ const servicesList = [
   },
   {
     id: "04",
-    name: "E-commerce",
+    name: "E-Commerce",
     icon: "/assets/Icon/e-commerce.svg",
     description:
       "We provide ultimate e-commerce solution as well as customizations for your e-commerce business",
@@ -57,21 +57,21 @@ const servicesList = [
   },
   {
     id: "09",
-    name: "SOFTWARE OUTSOURCING (RESOURCE AUGMENTATION)",
+    name: "Software Outsourcing ",
     icon: "/assets/Icon/outsourcing.svg",
     description:
       "Empower your team with top-tier software developers from our resource pool of trendsetters.",
   },
   {
     id: "10",
-    name: "Search engine optimization",
+    name: "Search Engine Optimization",
     icon: "/assets/Icon/search-Engine-Opt.svg",
     description:
       "Get the best comprehensive set of SharePoint services to meet your business requirements.",
   },
   {
     id: "11",
-    name: "E-commurce SEO",
+    name: "E-Commurce SEO",
     icon: "/assets/Icon/e-comSeo.svg",
     description:
       "Using the latest tools & concrete methodologies to ensure the readiness of your digital solution.",

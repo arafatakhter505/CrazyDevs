@@ -37,7 +37,7 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 w-full z-30 bg-white-500 transition-all ${
-        isScrollActive ? "shadow-md pt-0" : "pt-4"
+        isScrollActive ? "shadow-md pt-0" : "pt-2"
       }`}
     >
       {/* Desktop Navigation */}
@@ -45,17 +45,12 @@ const Header = () => {
         {/* Logo Section */}
         <div className="col-start-1 col-end-2 flex items-center cursor-pointer">
           <Link href="/">
-          {/* <h3 className="text-xl font-bold cursor-pointer">
-              <span className="text-orange-500">Crazy</span>Devs
-            </h3> */}
-          <Image
-            src="/assets/logo.svg"
-            alt="CrazyDevs"
-           
-            width={120}
-            height={50}
-          
-          />
+            <Image
+              src="/assets/logo.svg"
+              alt="CrazyDevs"
+              width={120}
+              height={50}
+            />
           </Link>
         </div>
 
