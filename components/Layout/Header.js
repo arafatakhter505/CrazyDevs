@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import ButtonOutline from "../misc/ButtonOutline";
 import menus from "../../utils/menus";
+import Image from "next/image";
 
 const Header = () => {
   const [isScrollActive, setIsScrollActive] = useState(false);
@@ -44,9 +45,17 @@ const Header = () => {
         {/* Logo Section */}
         <div className="col-start-1 col-end-2 flex items-center">
           <Link href="/">
-            <h3 className="text-xl font-bold cursor-pointer">
+          {/* <h3 className="text-xl font-bold cursor-pointer">
               <span className="text-orange-500">Crazy</span>Devs
-            </h3>
+            </h3> */}
+          <Image
+            src="/assets/logo.svg"
+            alt="CrazyDevs"
+           
+            width={120}
+            height={50}
+          
+          />
           </Link>
         </div>
 
