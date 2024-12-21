@@ -48,8 +48,8 @@ const Header = () => {
             <Image
               src="/assets/crazy_devs_logo.svg"
               alt="CrazyDevs"
-              width={120}
-              height={50}
+              width={150}
+              height={70}
             />
           </Link>
         </div>
