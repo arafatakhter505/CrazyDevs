@@ -25,7 +25,7 @@ const servicesList = [
     name: "E-Commerce",
     icon: "/assets/Icon/e-commerce.svg",
     description:
-      "We provide ultimate e-commerce solution as well as customizations for your e-commerce business",
+      "We provide ultimate e-commerce solution as well as customization for your e-commerce business",
   },
   {
     id: "05",

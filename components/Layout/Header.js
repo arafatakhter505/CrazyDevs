@@ -53,7 +53,6 @@ const Header = () => {
             />
           </Link>
         </div>
-
         {/* Menu Links */}
         <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500 items-center">
           {menus?.map((menu) => (
