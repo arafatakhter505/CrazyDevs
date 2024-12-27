@@ -43,13 +43,14 @@ const Header = () => {
       {/* Desktop Navigation */}
       <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
         {/* Logo Section */}
-        <div className="col-start-1 col-end-2 flex items-center cursor-pointer">
+        <div className="col-start-1 col-end-2 flex items-center cursor-pointer -mt-1 w-[85%] md:w-full">
           <Link href="/">
             <Image
               src="/assets/crazy_devs_logo.svg"
               alt="CrazyDevs"
-              width={150}
-              height={70}
+              width={145}
+              height={55}
+              className=""
             />
           </Link>
         </div>

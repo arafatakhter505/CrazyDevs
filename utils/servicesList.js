@@ -88,7 +88,7 @@ const servicesList = [
 export const homeServicesList = [
   {
     id: "01",
-    name: "Software Out Source",
+    name: "Software OutSource",
     url: "/services",
     icon: "/assets/Icon/outsourcing.svg",
     description:
@@ -96,27 +96,27 @@ export const homeServicesList = [
   },
   {
     id: "02",
-    name: "Development Service",
+    name: "Web App Development",
     url: "/services",
     icon: "/assets/Icon/web-development.svg",
     description:
       "Develop robust online applications to suit your business needs and cater to your clients faithfully.",
   },
-  // {
-  //   id: "02",
-  //   name: "Mobile App Development",
-  //   icon: "/assets/Icon/app-development.svg",
-  //   description:
-  //     "Developing innovative and native mobile apps for Android, iOS, BlackBerry and Windows platforms",
-  // },
   {
-    id: "03",
-    name: "Cloud Service",
-    url: "/services",
-    icon: "/assets/Icon/cloud-solution.svg",
+    id: "02",
+    name: "Mobile App Development",
+    icon: "/assets/Icon/app-development.svg",
     description:
-      "We help large companies with enterprise-oriented certified cloud and cyber security solutions",
+      "Developing innovative and native mobile apps for Android, iOS, BlackBerry and Windows platforms",
   },
+  // {
+  //   id: "03",
+  //   name: "Cloud Service",
+  //   url: "/services",
+  //   icon: "/assets/Icon/cloud-solution.svg",
+  //   description:
+  //     "We help large companies with enterprise-oriented certified cloud and cyber security solutions",
+  // },
 
   {
     id: "05",

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
-const PageHero = ({ heading, strongHeading, content, img }) => {
+const PageHero = ({ heading, strongHeading, content, img ,buttonText,onButtonClick }) => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
@@ -20,7 +20,11 @@ const PageHero = ({ heading, strongHeading, content, img }) => {
               {heading} <strong>{strongHeading}</strong>
             </h1>
             <p className="text-black-500 mt-4 mb-6">{content}</p>
-            <ButtonPrimary>Get Started</ButtonPrimary>
+            
+            <button onClick={onButtonClick}>
+              <ButtonPrimary>{buttonText?buttonText:"Get Started"}</ButtonPrimary>
+            </button>
+             
           </div>
           <div className="flex w-full">
             <motion.div className="h-full w-full" variants={scrollAnimation}>

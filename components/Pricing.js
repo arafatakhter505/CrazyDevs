@@ -35,7 +35,7 @@ const Pricing = () => {
           <ScrollAnimationWrapper>
             <motion.div
               variants={scrollAnimation}
-              className="grid grid-cols-1 sm:grid-cols-4 gap-4 lg:gap-8 py-8 lg:py-12 px-6 sm:px-0 lg:px-6 justify-between"
+              className="grid grid-cols-1 sm:grid-cols-4 gap-4 lg:gap-6 py-8 lg:py-12 px-6 sm:px-0 lg:px-3 justify-between"
             >
               {homeServicesList.map((item) => (
                 <Service

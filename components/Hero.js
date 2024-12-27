@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
+
+
 const Hero = ({
   listUser = [
     {
@@ -41,7 +43,9 @@ const Hero = ({
               Transform your ideas into reality with custom software that drives
               growth, enhances efficiency, and scales with your business.
             </p>
+            <a href="/contact-us" >
             <ButtonPrimary>Get Started</ButtonPrimary>
+            </a>
           </div>
           <div className="flex w-full">
             <motion.div className="h-full w-full" variants={scrollAnimation}>
